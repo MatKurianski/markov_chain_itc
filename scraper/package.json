@@ -1,0 +1,16 @@
+{
+  "name": "ml_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus K",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "puppeteer": "^2.0.0",
+    "yargs": "^14.2.0"
+  }
+}
