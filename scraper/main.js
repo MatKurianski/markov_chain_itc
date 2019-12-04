@@ -6,6 +6,14 @@ const argv = require('yargs').option('links', {
 const fs = require('fs')
 const chalk = require('chalk');
 
+/*
+  PARAMETROS OPCIONAIS:
+
+  pages = Número de páginas das seções de ofertas a serem acessadas
+  max = Número máximo de páginas sendo acessadas simultaneamente
+  links = Dá pra inserir links ao invés de buscar nas ofertas
+*/
+
 class Printer {
   static blue(text) {
     console.log(chalk.blue(text))
